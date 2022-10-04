@@ -20,7 +20,7 @@ const NavBar = () => {
     },
     {
       id: 4,
-      link: 'Experiencia'
+      link: 'Tecnologias'
     },
     {
       id: 5,
@@ -71,6 +71,16 @@ const NavBar = () => {
               </Link>
             </li>
           ))}
+              <a
+              onClick={() => setNav(!nav)}
+              href='/CV Forsyth Facundo - Full Stack Developer LATAM.pdf'
+              className="px-4 cursor-pointer capitalize py-6 text-4xl"
+              download={true}
+              /* target="_blank"
+              rel="noreferrer" */
+            >
+              CV
+            </a>
         </ul>
       )}
     </div>

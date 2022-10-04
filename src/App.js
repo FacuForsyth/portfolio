@@ -1,7 +1,7 @@
 import React from "react";
 import SobreMi from "./Components/SobreMi";
 import Contacto from "./Components/Contacto";
-import Experiencia from "./Components/Experiencia";
+import Tecnologias from "./Components/Tecnologias";
 import Inicio from "./Components/Inicio";
 import NavBar from "./Components/NavBar";
 import Portfolio from "./Components/Portfolio";
@@ -14,7 +14,7 @@ function App() {
       <Inicio />
       <SobreMi />
       <Portfolio />
-      <Experiencia />
+      <Tecnologias />
       <Contacto />
       <SocialLinks />
     </div>

@@ -10,7 +10,7 @@ import mongoDB from "../Assets/mongoDB.png"
 import reactImage from "../Assets/react.png"
 //IMAGENES DE LOS LOGOS 
 
-const Experiencia = () => {
+const Tecnologias = () => {
 
   const techs = [
     {
@@ -71,15 +71,15 @@ const Experiencia = () => {
 
   return (
     <div
-      name="Experiencia"
+      name="Tecnologias"
       className="bg-gradient-to-b from-gray-800 to-black w-full py-8"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Experiencia
+            Tecnologías
           </p>
-          <p className="py-6">Estas son algunas de las tecnologias que manejo</p>
+          <p className="py-6">Estas son algunas herramientas que manejo</p>
         </div>
 
         <div className="w-full grid grid-cols-3 sm:grid-cols-3 gap-4 text-center py-4 px-4 sm:px-0">
@@ -98,4 +98,4 @@ const Experiencia = () => {
   )
 };
 
-export default Experiencia;
+export default Tecnologias;
