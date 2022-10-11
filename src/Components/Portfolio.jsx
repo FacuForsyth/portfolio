@@ -73,12 +73,14 @@ const Portfolio = () => {
               <a 
                 className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                 href={href}
+                target='_blank' rel='noreferrer'
               >
                 Demo
               </a>
               <a 
                 className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                 href={hrefCode}
+                target='_blank' rel='noreferrer'
               >
                 Code
               </a>
