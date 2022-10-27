@@ -4,8 +4,10 @@ import recipes from "../Assets/portfolio/pag_recipes.png";
 import rockStar from "../Assets/portfolio/home_rock.png";
 import previateca from "../Assets/portfolio/previateca.png";
 import calculadora from "../Assets/portfolio/calculadora.png";
-import anotador from "../Assets/portfolio/anotador.png";
-import contador from "../Assets/portfolio/contador.png";
+//import anotador from "../Assets/portfolio/anotador.png";
+//import contador from "../Assets/portfolio/contador.png";
+import facuflix from "../Assets/portfolio/facuflix.png"
+import pufi from "../Assets/portfolio/pufi.png"
 
 const Portfolio = () => {
 
@@ -17,10 +19,22 @@ const Portfolio = () => {
       hrefCode: 'https://github.com/FacuForsyth/previateca-app',
     },
     {
+      id: 7,
+      src: facuflix,
+      href: 'https://facuflix.web.app/',
+      hrefCode: 'https://github.com/FacuForsyth/facuflix',
+    },
+    {
       id: 2,
       src: rockStar,
       href: 'https://www.youtube.com/watch?v=k6iUCjMoBmc' ,
       hrefCode: 'https://github.com/FacuForsyth/PF-RockStar_Place',
+    },
+    {
+      id: 8,
+      src: pufi,
+      href: 'https://pufi-app-chi.vercel.app/' ,
+      hrefCode: 'https://github.com/FacuForsyth/Pufi' ,
     },
     {
       id: 3,
@@ -34,18 +48,18 @@ const Portfolio = () => {
       href: 'https://calculadorita.vercel.app/' ,
       hrefCode: 'https://github.com/FacuForsyth/react-proyect-calculadoraApp' ,
     },
-    {
+    /* {
       id: 5,
       src: anotador,
       href: 'https://bloctareas8.vercel.app/' ,
       hrefCode: 'https://github.com/FacuForsyth/react-proyect-TareasApp' ,
-    },
-    {
+    }, */
+    /* {
       id: 6,
       src: contador,
       href: 'https://contadordeclic8.vercel.app/' ,
       hrefCode: 'https://github.com/FacuForsyth/react-ContadorClicApp' ,
-    },
+    }, */
   ]
 
   return (
