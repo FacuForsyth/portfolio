@@ -8,6 +8,8 @@ import node from "../Assets/node.png"
 import redux from "../Assets/redux.png"
 import mongoDB from "../Assets/mongoDB.png"
 import reactImage from "../Assets/react.png"
+import postgreSql from "../Assets/postgresql.png"
+import typescript from "../Assets/typescript.png"
 //IMAGENES DE LOS LOGOS 
 
 const Tecnologias = () => {
@@ -32,9 +34,15 @@ const Tecnologias = () => {
       style: 'shadow-yellow-500'
     },
     {
+      id: 11,
+      src: typescript,
+      title: 'TypeScript',
+      style: 'shadow-blue-600'
+    },
+    {
       id: 4,
       src: reactImage,
-      title: 'React',
+      title: 'React / ReactNative',
       style: 'shadow-sky-400'
     },
     {
@@ -49,10 +57,16 @@ const Tecnologias = () => {
       title: 'Node JS',
       style: 'shadow-green-400'
     },
-    {
+    /* {
       id: 7,
       src: sequelize,
       title: 'Sequelize',
+      style: 'shadow-blue-600'
+    }, */
+    {
+      id: 10,
+      src: postgreSql,
+      title: 'PostgreSQL',
       style: 'shadow-blue-600'
     },
     {
@@ -61,12 +75,12 @@ const Tecnologias = () => {
       title: 'Mongo DB',
       style: 'shadow-green-500'
     },
-    {
+    /* {
       id: 9,
       src: github,
       title: 'GitHub',
       style: 'shadow-gray-200'
-    },
+    }, */
   ]
 
   return (

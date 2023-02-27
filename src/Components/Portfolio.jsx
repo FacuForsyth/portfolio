@@ -6,8 +6,9 @@ import previateca from "../Assets/portfolio/previateca.png";
 import calculadora from "../Assets/portfolio/calculadora.png";
 //import anotador from "../Assets/portfolio/anotador.png";
 //import contador from "../Assets/portfolio/contador.png";
-import facuflix from "../Assets/portfolio/facuflix.png"
-import pufi from "../Assets/portfolio/pufi.png"
+import facuflix from "../Assets/portfolio/facuflix.png";
+//import pufi from "../Assets/portfolio/pufi.png";
+import marvelapp from "../Assets/portfolio/marvel_app.jpg";
 
 const Portfolio = () => {
 
@@ -19,28 +20,34 @@ const Portfolio = () => {
       hrefCode: 'https://github.com/FacuForsyth/previateca-app',
     },
     {
-      id: 7,
-      src: facuflix,
-      href: 'https://facuflix.web.app/',
-      hrefCode: 'https://github.com/FacuForsyth/facuflix',
-    },
-    {
       id: 2,
       src: rockStar,
       href: 'https://www.youtube.com/watch?v=k6iUCjMoBmc' ,
       hrefCode: 'https://github.com/FacuForsyth/PF-RockStar_Place',
     },
     {
-      id: 8,
-      src: pufi,
-      href: 'https://pufi-app-chi.vercel.app/' ,
-      hrefCode: 'https://github.com/FacuForsyth/Pufi' ,
-    },
-    {
       id: 3,
       src: recipes,
       href: 'https://recipes8.vercel.app/' ,
       hrefCode: 'https://github.com/FacuForsyth/PI-RecipesApp',
+    },
+    {
+      id: 7,
+      src: facuflix,
+      href: 'https://facuflix.web.app/',
+      hrefCode: 'https://github.com/FacuForsyth/facuflix',
+    },
+    /* {
+      id: 8,
+      src: pufi,
+      href: 'https://pufi-app-chi.vercel.app/' ,
+      hrefCode: 'https://github.com/FacuForsyth/Pufi' ,
+    }, */
+    {
+      id: 9,
+      src: marvelapp,
+      href: 'https://youtube.com/shorts/M7amBklKhfI?feature=share' ,
+      hrefCode: 'https://github.com/FacuForsyth/MarvelApp-ReactNative' ,
     },
     {
       id: 4,
