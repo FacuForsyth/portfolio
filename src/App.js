@@ -4,7 +4,7 @@ import Contacto from "./Components/Contacto";
 import Tecnologias from "./Components/Tecnologias";
 import Inicio from "./Components/Inicio";
 import NavBar from "./Components/NavBar";
-import Portfolio from "./Components/Portfolio";
+import Proyectos from "./Components/Proyectos";
 import SocialLinks from "./Components/SocialLinks";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <NavBar />
       <Inicio />
       <SobreMi />
-      <Portfolio />
+      <Proyectos />
       <Tecnologias />
       <Contacto />
       <SocialLinks />

@@ -7,12 +7,14 @@ import calculadora from "../Assets/portfolio/calculadora.png";
 //import anotador from "../Assets/portfolio/anotador.png";
 //import contador from "../Assets/portfolio/contador.png";
 import facuflix from "../Assets/portfolio/facuflix.png";
-//import pufi from "../Assets/portfolio/pufi.png";
+import pufi from "../Assets/portfolio/pufi.png";
 import marvelapp from "../Assets/portfolio/marvel_app.jpg";
+import snakegame from "../Assets/portfolio/snake_game.jpg";
+import memorygame from "../Assets/portfolio/memory_game.jpg";
 
-const Portfolio = () => {
+const Proyectos = () => {
 
-  const portfolios = [
+  const proyectos = [
     {
       id: 1,
       src: previateca,
@@ -37,12 +39,18 @@ const Portfolio = () => {
       href: 'https://facuflix.web.app/',
       hrefCode: 'https://github.com/FacuForsyth/facuflix',
     },
-    /* {
+    {
       id: 8,
       src: pufi,
       href: 'https://pufi-app-chi.vercel.app/' ,
       hrefCode: 'https://github.com/FacuForsyth/Pufi' ,
-    }, */
+    },
+    {
+      id: 4,
+      src: calculadora,
+      href: 'https://calculadorita.vercel.app/' ,
+      hrefCode: 'https://github.com/FacuForsyth/react-proyect-calculadoraApp' ,
+    },
     {
       id: 9,
       src: marvelapp,
@@ -50,10 +58,16 @@ const Portfolio = () => {
       hrefCode: 'https://github.com/FacuForsyth/MarvelApp-ReactNative' ,
     },
     {
-      id: 4,
-      src: calculadora,
-      href: 'https://calculadorita.vercel.app/' ,
-      hrefCode: 'https://github.com/FacuForsyth/react-proyect-calculadoraApp' ,
+      id: 10,
+      src: snakegame,
+      href: 'https://youtube.com/shorts/x1ZbeUvIup4' ,
+      hrefCode: 'https://github.com/FacuForsyth/SnakeGame-ReactNative' ,
+    },
+    {
+      id: 11,
+      src: memorygame,
+      href: 'https://youtube.com/shorts/kvBIw3OPbPg?feature=share' ,
+      hrefCode: 'https://github.com/FacuForsyth/MemoryGame-ReactNative' ,
     },
     /* {
       id: 5,
@@ -71,19 +85,19 @@ const Portfolio = () => {
 
   return (
     <div
-    name="portfolio"
+    name="proyectos"
     className="bg-gradient-to-b from-black to-gray-800 w-full text-white py-8"
   >
     <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
       <div className="pb-8">
         <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-          Portfolio
+          Proyectos
         </p>
         <p className="py-6">Aquí puedes ver el repositorio de mis proyectos:</p>
       </div>
 
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-        {portfolios.map(({ id, src, href, hrefCode }) => (
+        {proyectos.map(({ id, src, href, hrefCode }) => (
           <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
             <img
               src={src}
@@ -114,4 +128,4 @@ const Portfolio = () => {
   )
 };
 
-export default Portfolio;
+export default Proyectos;
